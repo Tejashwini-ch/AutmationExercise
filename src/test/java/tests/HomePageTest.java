@@ -2,13 +2,10 @@ package tests;
 
 import java.time.Duration;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;       // ✅ Added
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-
 import org.testng.Assert;
 import org.testng.annotations.*;
 
@@ -35,26 +32,21 @@ public class HomePageTest {
 
     @Test(priority = 1)
     public void verifyHomePageIsVisible() {
-        Assert.assertTrue(homePage.isHomePageVisible(), "Home page is NOT visible!");
+        Assert.assertTrue(homePage.isHomePageVisible(), " Home page is NOT visible!");
     }
 
     @Test(priority = 2)
     public void verifyNavigationToLoginPage() {
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
-        WebElement loginLink = wait.until(
-                ExpectedConditions.elementToBeClickable(By.cssSelector("a[href='/login']"))
-        );
-        loginLink.click();
-        Assert.assertTrue(driver.getCurrentUrl().contains("login"), "Navigation to Login page failed!");
+        LoginPage loginPage = homePage.clickLoginLink(); // returns LoginPage
+        Assert.assertTrue(loginPage.isLoginFormVisible(), " Navigation to login page failed!");
     }
 
     @Test(priority = 3)
     public void verifyNavigationToProductsPage() {
         homePage.clickProducts();
-        Assert.assertTrue(driver.getCurrentUrl().contains("products"),
-                "Navigation to Products page failed!");
+        Assert.assertTrue(driver.getCurrentUrl().contains("products"), " Navigation to Products page failed!");
     }
-
+    
     @AfterMethod
     public void tearDown() {
         ExtentManager.quitDriver(); // quit driver after each test
