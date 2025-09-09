@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-09-09T09:27:43 IST" name="Surefire suite" finished-at="2025-09-09T09:29:17 IST" duration-ms="94630">
+    <groups>
+    </groups>
+    <test started-at="2025-09-09T09:27:43 IST" name="Surefire test" finished-at="2025-09-09T09:29:17 IST" duration-ms="94630">
+      <class name="tests.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTest@7c729a55]" started-at="2025-09-09T09:28:03 IST" name="setup" finished-at="2025-09-09T09:28:03 IST" duration-ms="829" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setupLogin()[pri:0, instance:tests.LoginTest@7c729a55]" started-at="2025-09-09T09:28:03 IST" name="setupLogin" finished-at="2025-09-09T09:28:06 IST" duration-ms="2684" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupLogin -->
+        <test-method signature="testValidLogin()[pri:1, instance:tests.LoginTest@7c729a55]" started-at="2025-09-09T09:28:06 IST" name="testValidLogin" finished-at="2025-09-09T09:28:16 IST" duration-ms="10078" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidLogin -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTest@7c729a55]" started-at="2025-09-09T09:28:16 IST" name="setup" finished-at="2025-09-09T09:28:18 IST" duration-ms="1335" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setupLogin()[pri:0, instance:tests.LoginTest@7c729a55]" started-at="2025-09-09T09:28:18 IST" name="setupLogin" finished-at="2025-09-09T09:28:22 IST" duration-ms="4534" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupLogin -->
+        <test-method signature="testInvalidLogin()[pri:2, instance:tests.LoginTest@7c729a55]" started-at="2025-09-09T09:28:22 IST" name="testInvalidLogin" finished-at="2025-09-09T09:28:25 IST" duration-ms="2603" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidLogin -->
+      </class> <!-- tests.LoginTest -->
+      <class name="tests.BasicTest">
+        <test-method is-config="true" signature="teardownSuite()[pri:0, instance:tests.BasicTest@1d9b7cce]" started-at="2025-09-09T09:29:18 IST" name="teardownSuite" finished-at="2025-09-09T09:29:18 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownSuite -->
+      </class> <!-- tests.BasicTest -->
+      <class name="tests.ProductsPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.ProductsPageTest@6d763516]" started-at="2025-09-09T09:28:33 IST" name="setup" finished-at="2025-09-09T09:28:35 IST" duration-ms="1653" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyAllProductsAndProductDetailPage()[pri:0, instance:tests.ProductsPageTest@6d763516]" started-at="2025-09-09T09:28:35 IST" name="verifyAllProductsAndProductDetailPage" description="Test Case 8: Verify All Products and Product Detail Page" finished-at="2025-09-09T09:28:42 IST" duration-ms="6650" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAllProductsAndProductDetailPage -->
+      </class> <!-- tests.ProductsPageTest -->
+      <class name="tests.HomePageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.HomePageTest@47af7f3d]" started-at="2025-09-09T09:27:43 IST" name="setup" finished-at="2025-09-09T09:27:49 IST" duration-ms="6738" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyHomePageIsVisible()[pri:1, instance:tests.HomePageTest@47af7f3d]" started-at="2025-09-09T09:27:49 IST" name="verifyHomePageIsVisible" finished-at="2025-09-09T09:27:49 IST" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageIsVisible -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.HomePageTest@47af7f3d]" started-at="2025-09-09T09:27:50 IST" name="tearDown" finished-at="2025-09-09T09:27:50 IST" duration-ms="166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.HomePageTest@47af7f3d]" started-at="2025-09-09T09:27:50 IST" name="setup" finished-at="2025-09-09T09:27:55 IST" duration-ms="5390" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyNavigationToLoginPage()[pri:2, instance:tests.HomePageTest@47af7f3d]" started-at="2025-09-09T09:27:55 IST" name="verifyNavigationToLoginPage" finished-at="2025-09-09T09:27:56 IST" duration-ms="928" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNavigationToLoginPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.HomePageTest@47af7f3d]" started-at="2025-09-09T09:27:56 IST" name="tearDown" finished-at="2025-09-09T09:27:56 IST" duration-ms="142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.HomePageTest@47af7f3d]" started-at="2025-09-09T09:27:56 IST" name="setup" finished-at="2025-09-09T09:28:01 IST" duration-ms="4404" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyNavigationToProductsPage()[pri:3, instance:tests.HomePageTest@47af7f3d]" started-at="2025-09-09T09:28:01 IST" name="verifyNavigationToProductsPage" finished-at="2025-09-09T09:28:02 IST" duration-ms="1731" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNavigationToProductsPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.HomePageTest@47af7f3d]" started-at="2025-09-09T09:28:03 IST" name="tearDown" finished-at="2025-09-09T09:28:03 IST" duration-ms="136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.HomePageTest -->
+      <class name="tests.PaymentPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.PaymentPageTest@2a798d51]" started-at="2025-09-09T09:28:25 IST" name="setup" finished-at="2025-09-09T09:28:27 IST" duration-ms="1744" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyPaymentAndConfirmOrder()[pri:0, instance:tests.PaymentPageTest@2a798d51]" started-at="2025-09-09T09:28:27 IST" name="verifyPaymentAndConfirmOrder" finished-at="2025-09-09T09:28:33 IST" duration-ms="6814" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPaymentAndConfirmOrder -->
+      </class> <!-- tests.PaymentPageTest -->
+      <class name="tests.RegisterUserTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.RegisterUserTest@52bf72b5]" started-at="2025-09-09T09:28:42 IST" name="setup" finished-at="2025-09-09T09:28:43 IST" duration-ms="1583" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:tests.RegisterUserTest@52bf72b5]" started-at="2025-09-09T09:28:43 IST" name="setupTest" finished-at="2025-09-09T09:29:00 IST" duration-ms="16487" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="testRegisterUser()[pri:0, instance:tests.RegisterUserTest@52bf72b5]" started-at="2025-09-09T09:29:00 IST" name="testRegisterUser" finished-at="2025-09-09T09:29:17 IST" duration-ms="17122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegisterUser -->
+        <test-method is-config="true" signature="tearDownTest()[pri:0, instance:tests.RegisterUserTest@52bf72b5]" started-at="2025-09-09T09:29:17 IST" name="tearDownTest" finished-at="2025-09-09T09:29:17 IST" duration-ms="149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+      </class> <!-- tests.RegisterUserTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
